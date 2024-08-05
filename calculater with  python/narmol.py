@@ -14,6 +14,8 @@ elif op == '*':
     print("Result:", num1* num2)
 
 elif op == '/':
-    print("Result:", num1 / num2)
+    if(num2=0){print("Result:not divided by 0")}
+else:{
+    print("Result:", num1 / num2)}
 elif op == '%':
     print("Result:", num1 % num2)
